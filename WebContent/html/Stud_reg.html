@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<title>:: Student Registration ::</title>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="ISO-8859-1">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/main.css" rel="stylesheet">
+
+<script src="../js/jquery.js" ></script>
+<script src="../js/bootstrap.min.js" ></script>
+</head>
+
+
+
+
+<body>
+
+<!-- navigation Starts -->
+
+  <nav class="navbar navbar-default" id="hdr" role="navigation">
+    <div class="container-fluid">
+          
+          <div class="col-md-13">      
+    <div class="col-md-8 "><img class="img-responsive" src="../img/header.png"></div>
+
+       
+  </div><!-- col-md-12-->
+
+
+
+
+
+ <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+ 
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" id="bcol">
+
+              <span class="sr-only"><h6>Show Navigation</h6>Navigation</span>
+
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+
+            </button>
+  
+ <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <div id="nav">
+ 
+  <ul class="nav nav-tabs">
+    
+    <li ><a href="../index.html" class="a" aria-hidden="true">Home</a></li>
+  
+    <li ><a href="boh.html" class="c">Board of Honours</a></li>
+    <li><a href="download.html" class="d">Downloads</a></li>
+    <li><a href="gallery.html" class="e">Gallery</a></li>
+    <li><a href="login.html" class="f">Vault</a></li>
+    <li><a href="contact.html" class="g">Contact Us</a></li>
+        <li class="dropdown">
+         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+         Alumni <span class="caret"></span>
+          <ul class="dropdown-menu">
+                     <li><a href="#">Passouts</a></li>
+                     <li><a href="#">Interact with Seniors</a></li>
+                     <li><a href="#">Sponosrships</a></li>
+                    
+        
+          </ul>
+    </ul><!--nav-nav-tabs-->
+  </div><!--nav-->
+      </div><!--navbar-header-->
+      </div>
+    </nav>
+<!-- navigation Ends -->
+</div><!-- /.navbar-collapse -->
+
+<ol class="breadcrumb" >
+   <li>You are here</li>
+  <li><a href="../index.html">Home</a></li>
+
+  <li class="active">Student Registration</li>
+</ol>
+
+
+   <div class="container">
+                  
+                         <div class="col-md-10 col-md-push-1">
+                              <div class="col md-4 ">
+                                   <div class="panel panel-info">
+                                        <div class="panel panel-heading">
+                                           <h3 class="panel-title">STUDENT REGISTRATION</h3>
+                                        </div>
+
+                               <div class="panel-body">
+                                  
+                                    <div id="reg">
+                       <div class="form-group">
+					<form name="frm" class="form-horizontal"  method="post" action="../jsp/Registration.jsp">
+                      <h1>Enter Student Detail</h1>
+                      <center>
+                      <table border="0" align="left">
+
+                      <tr><td>
+                      User-ID</td>
+                        <div class="col-sm-10">
+                      <td colspan="4"><input type="text" name="userid" class="form-control" placeholder="Enter User ID" id="f1"></td>
+                      </div>
+                      </tr>
+
+
+                      <tr><td>
+                      FirstName </td>
+                      <td><input type="text" name="fnm" class="form-control" placeholder="Enter First Name"></td>
+                      <td>
+                      &nbsp;&nbsp
+                      Middlle Name</td>
+                      <td><input type="text" name="midnm" class="form-control" placeholder="Enter Middle Name"></td>
+
+                      <td>
+                      &nbsp;&nbsp
+                      Last Name</td>
+                      <td><input type="text" name="surnm" class="form-control" placeholder="Enter Last Name"></td>
+                       </tr>
+                       <tr>
+                       <td>Mother's Name</td>
+                      <td colspan="4" vspace="5px"><input type="text" name="mothernm" placeholder="Enter Mother's Name" class="form-control"></td> 
+                      </tr>
+                       <tr>
+                       <td>
+                      Date-Of-Birth</td><td colspan="4"><input type="date" name="DOB" placeholder="Enter Date Of Birth" class="form-control"></td>
+                      </tr><tr><td>
+                      Division</td><td colspan="4"><select name="div" placeholder="Enter Division" class="form-control" id="f2">
+                      				<option value="A">A</option>
+                      				<option value="B">B</option>
+                      				<option value="C">C</option>
+                      				</select>
+                      				</td>
+                      </tr><tr><td>
+                      				Student Email</td><td colspan="4"><input type="email" name="semail" placeholder="Enter Students E-mail"  class="form-control"></td>
+
+                      	</tr>			<tr><td>
+                      				Parent Email</td><td colspan="4"><input type="email" name="pemail" placeholder="Enter Parent's E-Mail " class="form-control"></td>
+                      </tr><tr><td>
+                      				Student Mobile No.</td><td colspan="4"><input type=""number" pattern="[0-9.]*" name="smob"placeholder="Enter Students Mobile" class="form-control"></td>
+                      </tr><tr><td>
+                      				Parent Mobile No.</td><td colspan="4"><input type=""number" pattern="[0-9.]*" name="pmob" placeholder="Enter Parent's Mobile" class="form-control"></td>
+                      </tr><tr><td>
+                      				Address</td><td colspan="4"><textarea type="text" name="address" placeholder="Enter Address" class="form-control"></textarea></td>
+                      </tr><tr><td>
+                      				Standard</td><td colspan="4"><select name="Std" placeholder="Enter Division" class="form-control" id="f2">
+                      				<option value="4">Fourth</option>
+                      				<option value="5">Fifth</option>
+                      				<option value="6">Sixth</option>
+                      				<option value="7">Seventh</option>
+                      				<option value="8">Eighth</option>
+                      				</select></td>
+
+                      			</tr>	<tr><td>Date-Of-Admission</td><td colspan="4"><input type="date" name="DOBOFADM" placeholder="Enter Date Of Admission" class="form-control"></td>
+
+                      </tr>
+
+                      <tr><td>Password</td><td colspan="4"><input type="password" name="PWD" placeholder="Enter password" class="form-control"></td>
+
+                      </tr>
+
+
+                                           <tr>
+                      <td colspan="5" align="center">
+                      <input type="submit" value="submit" class="button1">
+                      </td>
+
+                      </tr>
+                      </table>
+
+                      </form>
+											</div><!-- Form-group ends-->
+	
+
+									
+
+
+
+							</div><!--reg ends -->
+                                     </div><!-- Panel body ends -->
+                              </div><!--Panel-success ends -->
+                           </div><!--col-md-4 ends -->
+                       </div><!--col-md-7 ends -->
+            </div><!--container ends -->
+            
+
+<!-- Footer StaRTS -->
+<footer class="site-footer" >
+    <div class="container">
+               <div class="row">
+                    <p> Welcome to Online Student Vigiliance System..</p>
+                         <div class="bottom-footer">
+                                  <div class="col md-7"> &copy Pathways World School</div>
+
+                               <!--Social Starts HERE-->
+                                  <div id="footer" class="center">
+                                        <div id="f1">
+                                                
+                                        <br/>     
+                                          <a href="#"><img src="../img/facebook.png"/></a>
+                                          <a href="https://twitter.com/Triangle_Sales"><img src="../img/twitter.png"/></a>
+                                          <a href="#"><img src="../img/google_plus.png"/></a>
+                                                
+                                        </div>
+                                        
+                                      </div>
+                                  
+                                 <!--Social ENDS HERE-->
+    
+                <div class="col md-7">
+                      <ul class="footer-nav">
+                          <li><a href="../index.html">Home</a></li>
+                          <li><a href="login.html">LogIn</a></li>
+                          <li><a href="developers.html">Developers</a></li>
+                          <li><a href="gallery.html">Gallery</a></li>
+                          <li><a href="contact.html">AboutUs</a></li>
+                        </ul>
+                </div>
+    </div><!-- bOTTOM- FOOTER ENDS -->
+</div><!-- row ENDS -->
+</div><!-- CONTAINER ENDS -->
+  </footer>
+
+<!-- fOOTER eNDS -->
+
+
+
+</body>
+</html>

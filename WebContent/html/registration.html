@@ -1,0 +1,135 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="css/ajaxrequest.css">
+	<script type="javascript" src="ajaxrequest.js"></script>
+	<script type="javascript" src="jquery-1.10.2.js"></script>
+	<script>
+		$(function(){
+			$('#regform').form({
+				
+				success:function(data){
+					$.messager.alert('Registration','Your Registration request is recieved<br/>Your Registration will not be confirmed unless you PAY your Entry Fess<br/>You will be contacted soon...!!!', 'Registration');
+					}
+			});
+			
+			
+		});
+	</script>
+</head>
+ <div id="sponsercontainer">
+		<div class="title-2">REGISTRATION REQUEST</div><hr/>
+			<div id="sponserbox"><br/><br/>
+			<form id="regform" method="POST" action="http://smsc.biz/httpapi/send?username=surajdevgad@gmail.com&password=sur873&sender_id=SMSIND&route=T&phonenumber=8390245124&message=Test%20sms%20from%20surajdevgade@gmail.com.%20Thanks%20for%20choosing%20our%20service%20-%20USERNAME%20SERVICE%20-%20SMSC%20Platform" name="regform">
+				<table id="regboxer" class="center">
+					<tr>
+						<td width="100px">
+						NAME
+						</td>
+						
+						<td>
+						<input type="text" name="nameofparti" required placeholder="ENTER YOUR NAME"/>
+						</td>
+					</tr>
+					<tr>
+						<td>		
+						EVENT
+						</td>
+						<td>
+						<select name="eventname" placeholder="SELECT EVENT ">
+							<option value="THE ENTREPRENAUR">THE ENTREPRENAUR</option>
+							<option value="CIRCUIT DESIGNING">CIRCUIT DESIGNING</option>
+							<option value="CONTRIVANCE">CONTRIVANCE</option>
+							<option value="GOOGLER">GOOGLER</option>
+							<option value="GREEN BUILDING">GREEN BUILDING</option>
+							<option value="JUNKYARD WARS">JUNKYARD WARS</option>
+							<option value="PAPER PRESENTATION A">PAPER PRESENTATION A</option>
+							<option value="PAPER PRESENTATION B">PAPER PRESENTATION B</option>
+							<option value="PAPER PRESENTATION C">PAPER PRESENTATION C</option>
+							<option value="PAPER PRESENTATION D">PAPER PRESENTATION D</option>
+							<option value="GEEKY BIRDS">GEEKY BIRDS</option>
+							<option value="CAD STRIFE">CAD STRIFE</option>
+							<option value="CODE FRENZY">CODE FRENZY</option>
+							<option value="ENCIPHER">ENCIPHER</option>
+							<option value="LAN BATTLE">LAN BATTLE</option>
+							<option value="MOD FUSION A">MOD FUSION A</option>
+							<option value="MOD FUSION B">MOD FUSION B</option>
+							<option value="MOD FUSION C">MOD FUSION C</option>
+							<option value="MOD FUSION D">MOD FUSION D</option>
+							<option value="RUBIK CUBE">RUBIK CUBE</option>
+							<option value="TRUSS-A MAZE">TRUSS-A MAZE</option>
+							<option value="JUNK ART">JUNK ART</option>
+							<option value="THEMIC PIXEL">THEMIC PIXEL</option>
+							<option value="TECHNO-RUN">TECHNO-RUN</option>
+							<option value="PRAJWALAN TIMES">PRAJWALAN TIMES</option>
+							<option value="MAD-LABZ">MAD-LABZ</option>
+							<option value="VIRTUAL PC">VIRTUAL PC</option>
+							<option value="GRID SOLVER">GRID SOLVER</option>
+							<option value="DEATH RACE">DEATH RACE</option>
+							<option value="ROBO-SOCCER">ROBO-SOCCER</option>
+							<option value="POSTER PRESENTATION">POSTER PRESENTATION</option>
+						</select>
+						</td>
+					</tr>
+					<tr>		
+						<td>
+							COLLEGE
+						</td>
+						<td>
+							<input type="text" name="nameofcol" required placeholder="ENTER YOUR COLLEGE"/>
+						</td>
+					</tr>
+					<tr>
+						<td>	
+						EMAIL
+						</td>
+						<td>
+						<input type="email" name="nameofemail" required placeholder="ENTER YOUR EMAIL"/>
+						</td>
+					</tr>
+					<tr>
+						<td>	
+							MOBILE NO
+						</td>
+						<td>	
+							<input type="text" name="mobofparti" required placeholder="ENTER MOBILE NUMBER"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							&nbsp;
+						</td>
+						<td>
+							<input type="submit" value="Register" id="regbutton"/>
+						</td>
+					</tr>
+					
+					<tr id="target">
+					</tr>
+				</table>		
+				
+			</form>
+					
+			</div>		
+		</div>	
+       
+		
+		
+		<!-- CUSTOM SCROLL SCRIPT STARTS -->
+				<script>
+					$(document).ready(function()
+					{
+							$("#sponserbox").mCustomScrollbar(
+								{
+								advanced:
+									{
+								
+										updateOnContentResize: true
+									},
+								scrollButtons:
+									{
+									enable:true
+									}
+								});		
+					})(jQuery);
+				</script>
+	<!-- CUSTOM SCROLL SCRIPT ENDSSS -->
+</body>   
