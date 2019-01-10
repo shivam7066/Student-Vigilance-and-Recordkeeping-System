@@ -1,0 +1,633 @@
+/*@font-face {font-family: "arial";
+src: url(fonts/arial.ttf);}
+@font-face {font-family: "georgia";
+src: url(fonts/georgia.ttf);}
+@font-face {font-family: "Lucida Sans";
+src: url(fonts/LSANS.ttf);}
+@font-face {font-family: "Bleeding Cowboys";
+src: url(fonts/Bleeding_Cowboys.ttf);}
+@font-face {font-family: "monotype Corsiva";
+src: url(fonts/MTCROSIVA.ttf);}
+*/
+
+*
+
+body
+{
+    margin: 0px;
+                 /*#660707--#bb2222--#CEF294;*/
+    font-family: tahoma;
+    font-size: 16px;
+    opacity:0.8;
+    //background:url(../img/bg2.png) no-repeat center;
+    //background: #FFFFCC;
+    background-color:;  
+    width:100%;
+    line-height: 1.4em; 
+    background-position: top;
+    background-attachment:fixed
+    border-radius:3px solid grey;
+    letter-spacing: 1px;
+    
+}
+
+#hdr
+
+{
+    background-color: white;//#D3D3D3;
+    padding-top:20px;
+    padding-left: 10px;
+
+    }
+    
+    #logout
+    {
+  border:1px solid grey;
+  color:white;
+  background:grey;
+  float:right;
+  margin-right:322px;
+ font-family:tahoma;
+  padding:1px;
+    }
+    #logout:hover
+    {
+    background:#222;
+    }
+#nav ul li a.home 
+{
+    background-image: url("../img/png/glyphicons-21-home.png");
+    background-repeat: no-repeat;
+        width: 100%;
+    text-align: right;
+    text-indent: 25px;
+    border-right: 1px solid grey;
+    border-bottom: 5px solid black;
+    background-position: left;
+
+  
+
+}
+
+
+#reg .head
+{
+  display:block;  
+  
+    font-family:tahoma serif;
+    font-size:10px;
+    border-bottom:1px dashed;
+    text-decoration:none;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    width: inherit;
+}
+#reg .head2
+{
+  display:block;  
+    font-family:tahoma serif;
+    font-size:10px;
+    text-decoration:none;
+    
+}
+#reg .head3
+{
+  display:block;  
+    font-family:lucida sans;
+    font-size:10px;
+    text-decoration:none;
+    text-align:center;
+    border-top:1px dashed;
+    
+}
+#reg a
+{
+   
+     display:block;  
+    font-family:tahoma serif;
+    font-size:10px;
+    
+    text-decoration:none;
+}
+#reg a:hover
+{
+   
+     color:grey;
+  
+   
+}
+#reg table
+{
+    
+   
+    color:#0066FF;
+    font-family:lucida sans ;
+    font-size:13px;
+    
+}
+
+
+#reg .button
+{
+    background-color: white;
+    border: solid 1px #555;
+    padding: 3px;
+    width: 100px;
+    height:35px;
+    border-radius:10px;
+    cursor: pointer;
+    margin-right:120px;
+    margin-top: 20px;
+}
+#reg .button:hover
+{
+    background-color:grey;
+    border: solid 1px #555;
+    padding: 3px;
+    width: 100px;
+    border-radius:11px;
+    cursor: pointer;
+    color:white;
+}
+#log-img
+{
+    background-size: 1px;
+    height: 17px;
+    margin-right: 5px;
+}
+
+#update a
+{
+color:black;
+text-decoration:none;
+}
+
+#ticker{
+
+height:130px;
+width:100%;
+overflow:hidden;
+}
+
+
+#update3
+{
+    font-size: 15px;
+    letter-spacing: 2px;
+width:320px;
+font-family: sans;
+height:160px;
+float:right;
+margin-top:1px;
+}
+
+#reg ul li 
+{
+list-style: circle;
+padding: 5px;
+letter-spacing: 3px;
+
+}
+#reg table
+{
+    font-size: 14px;
+}
+#reg table tr 
+{
+    margin-right: 8px;
+}
+
+#reg ul li a
+{
+font-family: tahoma;
+font-size: 16px;
+}
+
+#reg ul li:hover
+{
+    list-style: disc;
+}
+
+#reg .button1
+{
+    background-color: white;
+    border: solid 1px #555;
+    padding: 3px;
+    width: 100px;
+    height:35px;
+    border-radius:10px;
+    cursor: pointer;
+   
+    margin-top: 20px;
+}
+#reg .button1:hover
+{
+    background-color:#222;
+    border: solid 1px #555;
+    padding: 3px;
+    width: 100px;
+    border-radius:15px;
+    cursor: pointer;
+    color:white;
+}
+#reg .textbox
+{
+    
+    height:34px;
+    margin-bottom: 11px;
+    background-color: #fff;
+    border: solid 1px #aaa;
+    padding: 2px;
+    font-family:lucida sans ;
+    font-size: 16px;
+    color:black;
+    margin-left: 20px;
+}
+
+#reg .textbox1
+{
+    
+    height:30px;
+    margin-bottom: 11px;
+    background-color: #fff;
+    border: solid 1px #aaa;
+   width: 200px;
+        font-family:lucida sans ;
+    color:black;
+
+}
+
+#or
+{
+
+    padding:11px;
+    text-align: center;
+    color: grey;
+
+}
+
+#or1
+{
+
+   
+    text-align: center;
+    text-decoration: underline;
+}
+
+#nav ul li a
+{
+    color:#000066;
+    font-size: 18px;
+    font-family: tahoma;
+    border-radius: 10px;
+
+    
+}
+
+button.navbar-toggle
+{
+
+}
+button.navbar-toggle collapsed.icon-bar
+{
+    width: 90%;
+}
+
+
+#f1
+{
+    width: inherit;
+}
+
+#f2
+{
+
+    width:inherit;
+}
+#reg table tr td
+{
+    padding-bottom: 3px;
+}
+.panel-title
+{
+    color:white;
+    font-family: licida sans;
+    letter-spacing: 4px;
+    font-size:15px ;
+}
+#panel1
+{
+    margin-left: 25px;
+    width: 775px;
+}
+
+#wrapper
+{
+
+    background-color: white;
+}
+
+#nav
+{
+    margin-left: 90px;
+    letter-spacing: 5px;
+    
+     background-color:#e4e7eb;
+     
+ background-size: 22px;
+  border-radius: 11px;
+
+ 
+
+}
+#panelhdr
+{
+    color: #222;
+}
+.cnt
+{
+    font-family: tahoma;
+    font-size: 12px;
+}
+.cnt1
+{
+    font-family: tahoma;
+    font-size: 15px;
+}
+#hdr
+{
+    background-color: white;
+}
+
+div.navbar-header
+{
+
+}
+#nav ul li a
+{
+    color: #222;
+    font-family: sans-serif;
+    margin-bottom: -2px;
+}
+#nav ul li active:
+{
+    color: black;
+}
+#nav:hover
+{
+     margin-left: 90px;//adjusting margins on hover
+}
+
+ul li.active
+{
+
+   border-bottom: 3px solid black; 
+}
+
+#nav ul li
+{
+    
+border-radius: 12px;
+
+}
+
+#nav ul li a.a:hover 
+{
+    border-bottom: 5px solid black;
+    background-size: 20px;
+    background-position: left;
+}
+#nav ul li a.a
+{
+    background-image: url("../img/png/glyphicons-21-home.png");
+    background-repeat: no-repeat;
+    padding-top: 15px;
+     background-size: 17px;
+    text-align: right;
+    text-indent: 15px;
+    border-right: .5px solid grey;
+     border-bottom: 5px solid white;
+     background-size: 17px;
+    background-position: left;
+    
+    background-size: 20px;
+    background-position: left;
+
+}#nav ul li a.b:hover 
+{
+    border-bottom: 5px solid black;
+    background-image: url("../img/png/glyphicons-593-person.png");
+background-size: 20px;
+    background-position: left;
+    
+
+}
+#nav ul li a.b
+{
+    background-image: url("../img/png/glyphicons-592-person-running.png");
+    background-repeat: no-repeat;
+    padding-top: 15px;
+      
+    text-align: right;
+    text-indent: 15px;
+    border-right: .5px solid grey;
+     border-bottom: 5px solid white;
+     background-size: 20px;
+    background-position: left;
+     
+     
+}
+
+#nav ul li a.c:hover 
+{
+    border-bottom: 5px solid black;
+    background-image: url("../img/png/glyphicons-530-list-alt.png");
+    background-size: 20px;
+    background-position: left;
+  
+}
+#nav ul li a.c
+{
+    background-image: url("../img/png/glyphicons-547-quote.png");
+    background-repeat: no-repeat;
+    padding-top: 15px;
+      
+    text-indent: 15px;
+    border-right: .5px solid grey;
+     border-bottom: 5px solid white;
+    background-size: 20px;
+    background-position: left;
+      
+}
+
+
+
+#nav ul li a.e:hover 
+{
+    border-bottom: 5px solid black;
+    background-image: url("../img/png/glyphicons-12-camera.png");
+    background-size: 20px;
+    background-position: left;
+}
+
+
+
+#nav ul li a.d:hover 
+{
+    border-bottom: 5px solid black;
+     background-image: url("../img/png/glyphicons-136-inbox-out.png");
+    background-size: 20px;
+    background-position: left;
+}
+#nav ul li a.d
+{
+    background-image: url("../img/png/glyphicons-135-inbox-in.png");
+    background-repeat: no-repeat;
+    padding-top: 15px;
+      
+    text-align: right;
+    text-indent: 15px;
+    border-right: .5px solid grey;
+     border-bottom: 5px solid white;
+     background-size: 20px;
+    background-position: left;
+
+}
+
+
+#nav ul li a.dropdown-toggle:hover 
+{
+    border-bottom: 5px solid black;
+    
+}
+
+#nav ul li a.g:hover 
+{
+    border-bottom: 5px solid black;
+    background-image: url("../img/png/glyphicons-78-headset.png");
+    background-size: 20px;
+    background-position: left;
+   
+}
+#nav ul li a.e
+{
+    background-image: url("../img/png/glyphicons-9-film.png");
+
+    background-repeat: no-repeat;
+    padding-top: 15px;
+     
+    text-align: right;
+    text-indent: 15px;
+    border-right: .5px solid grey;
+     border-bottom: 5px solid white;
+    background-size: 20px;
+    background-position: left; 
+}
+
+#nav ul li a.g
+{
+    background-image: url("../img/png/glyphicons-442-phone-alt.png");
+    background-repeat: no-repeat;
+    padding-top: 15px;
+      
+    text-align: right;
+    text-indent: 15px;
+    border-right: .5px solid grey;
+     border-bottom: 5px solid white;
+   background-size: 20px;
+    background-position: left;
+}
+#nav ul li a.f
+{
+    background-image: url("../img/png/glyphicons-204-lock.png");
+    background-repeat: no-repeat;
+    padding-top: 15px;
+      
+    text-align: right;
+    text-indent: 15px;
+    border-right: 1px solid grey;
+     border-bottom: 5px solid white;
+    background-size: 20px;
+    background-position: left;
+}
+#welcome
+{
+
+
+}
+#nav ul li a.f:hover 
+{
+    border-bottom: 5px solid black;
+    background-image: url("../img/png/glyphicons-205-unlock.png");
+    background-size: 20px;
+    background-position: left;
+    
+   
+}
+
+#nav ul li a.dropdown-toggle
+{
+    background-image: url("../img/png/glyphicons-203-shopping-cart.png");
+    background-repeat: no-repeat;
+    padding-top: 15px;
+      
+    text-align: right;
+    text-indent: 15px;
+    border-right: 1px solid grey; 
+    border-bottom: 5px solid white;
+    width: 100%;
+    background-size: 20px;
+    background-position: left;
+
+}
+.breadcrumb > li + li:before {
+    color: grey;//#CCCCCC;
+    content: ">> ";
+    padding: 0 5px;
+}
+
+.site-footer
+{
+
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding-top: 30px;
+    position:relative;
+    margin-top:115px;
+    
+}
+.bottom-footer
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    color:#b2b2b2;
+    border-top: 1px solid grey;
+}
+
+.footer-nav
+{
+    text-align: right;
+    
+    list-style:none;
+    color:#b2b2b2;
+}
+.footer-nav li
+{
+    display: inline;
+
+}
+.footer-nav li:not(:first-child):before
+{
+    content: '|';
+    padding: 0px 10px;
+}
+.footer-nav a {
+    color:#b2b2b2;
+}
+
+.footer-nav a:hover
+{
+    color:white;
+    text-decoration: none;
+}
